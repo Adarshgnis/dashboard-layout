@@ -1,0 +1,12 @@
+.parentDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parentDiv .child1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+

@@ -1,0 +1,54 @@
+{
+    "familyData": [
+      {
+        "name": "Kristin",
+        "relationship": "Mother",
+        "dateOfBirth": "23/08/1998",
+        "phone": "0987654321"
+      },
+      {
+        "name": "John",
+        "relationship": "Father",
+        "dateOfBirth": "15/05/1975",
+        "phone": "1234567890"
+      }
+    ],
+    "personalInfo": {
+      "passportNo": "0987654321",
+      "passportExpDate": "jheel.meel@gmail.com",
+      "telephone": "01/01/1991",
+      "nationality": "12th Street, Seattle",
+      "religion": "Female",
+      "maritalStatus": "No one",
+      "employmentOfSpouse": "",
+      "numOfChildren": ""
+    },
+    "bankInfo": {
+        "Bank Name": "Canara Bank",
+        "Bank Account No.": "6565133213344",
+        "IFSCE Code": "CAN2324233",
+        "PAN No": "SSDW00J33"
+      },
+    "educationData": [
+      {
+        "school": "International College of Arts & Design",
+        "degree": "B.design in Automotive",
+        "duration": "2002-2008"
+      },
+      {
+        "school": "Another School Name",
+        "degree": "Another Degree",
+        "duration": "2000-2005"
+      }
+    ],
+    "experience" : [
+      {
+        "designationCompany" : "Web Designer at Google",
+        "duration": "Jan 2013 - Present (5years 2months)"
+      },
+      {
+        "designationCompany" : "Web Designer at Yahoo",
+        "duration": "Jan 2013 - Present (5years 2months)"
+      }
+    ]
+  }

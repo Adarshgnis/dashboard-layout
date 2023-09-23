@@ -1,0 +1,8 @@
+.editableContainerTable thead th{
+    padding-right: 50px;
+    padding-bottom: 12px;
+}
+
+.editableContainerTable tbody td {
+    padding-bottom: 20px;
+}

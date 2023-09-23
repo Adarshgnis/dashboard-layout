@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
 
 * {
   margin: 0;
@@ -21,6 +21,13 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 6px 0;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -28,4 +35,68 @@ li {
 
 .heading1 {
   font-size: 1.25rem;
+}
+
+.child-wrapper{
+  padding: 38px 72px 77px 45px;
+}
+
+.editableContainer-heading {
+  margin-bottom: 26px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+
+.secondaryHeading {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.secondaryParagraph {
+  font-size: 0.625rem;
+  font-weight: 300;
+  padding-bottom: 6px;
+}
+
+hr {
+  opacity: 40%;
+  margin: 12px 0;
+}
+
+.editCont-p {
+  font-size: 0.625rem;
+  font-weight: 400;
+  padding-bottom: 7px;
+}
+
+.timeline ul {
+  position: relative;
+}
+
+.timeline ul:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #fff;
+  height: 95%;
+  left: 0;
+  top: 0;
+}
+
+.timeline ul li h4:before{
+  position: absolute;
+  content: "";
+  width: 9px;
+  height: 9px;
+  background-color: #fff;
+  left: -4px;
+  border-radius: 50%;
+}
+
+.timeline ul li {
+  padding-left: 25px;
 }

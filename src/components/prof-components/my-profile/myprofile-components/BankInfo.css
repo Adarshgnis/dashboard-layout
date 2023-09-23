@@ -1,0 +1,10 @@
+.parentchild {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parentchild .child1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}

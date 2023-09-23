@@ -28,7 +28,7 @@ const Profile = () => {
     <div className='profile-container'>
       <div className="profile-wrapper">
         <h1 className='heading1'>Profile</h1>
-        <p>Dashboard <span>&gt;</span> Profile</p>
+        <p className='profilewrapperP'>Dashboard <span>&gt;</span> Profile</p>
         <BasicInfo />
         <ul className='tabSwitchingLinks'>
           <li><a onClick={() => handleTabClicks('My Profile')} className={activeTab === 'My Profile' ? 'activeTab' : ''}>My Profile</a></li>

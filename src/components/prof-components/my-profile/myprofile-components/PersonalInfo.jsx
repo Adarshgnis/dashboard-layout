@@ -1,17 +1,29 @@
 import React from 'react'
+import data from "../../../../data/Data.json"
+import "./PersonalInfo.css"
 
 const PersonalInfo = () => {
+
+  const personalInfo = data.personalInfo
+
   return (
-    <div>
-      <h2>Personal Informations</h2>
-      <p>Passport No. <span>:</span> 0987654321</p>
-      <p>Passport Exp Date. <span>:</span> jheel.meel@gmail.com</p>
-      <p>Telephone <span>:</span> 01/01/1991</p>
-      <p>Nationality <span>:</span> 12th Street, Seatle</p>
-      <p>Religion <span>:</span> Female</p>
-      <p>Marital Status <span>:</span> No one</p>
-      <p>Employement of Spouse <span>:</span> </p>
-      <p>No. of Children <span>:</span> </p>
+    <div className='container-child'>
+      <div className="child-wrapper">
+        <h2 className="editableContainer-heading">Personal Informations</h2>
+
+        {Object.entries(personalInfo).map(([key, value]) => (
+          <div className='parentDiv' key={key}>
+            <div className='child1'>
+              <p className='editCont-p'>{key}</p>
+              <p className='editCont-p'>:</p>
+            </div>
+            <div className='child2'>
+              <p className='editCont-p'>{value}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
     </div>
   )
 }

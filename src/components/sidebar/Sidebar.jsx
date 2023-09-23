@@ -1,7 +1,11 @@
 import React from 'react'
 import './Sidebar.css'
+import { Link, useLocation } from 'react-router-dom'
 
 const Sidebar = () => {
+
+  const location = useLocation();
+
   return (
     <div className="sidebar-container">
       <div className='sidebar-wrapper'>
@@ -17,8 +21,8 @@ const Sidebar = () => {
           <li><a href="#"><img src="/src/assets/Group 5462.png" alt="" /></a></li>
         </ul>
         <ul className="sidebar-links">
-          <li>Dashboard</li>
-          <li>Profile</li>
+          <li className={location.pathname === '/' ? 'activeLink' : ''}><Link to="/" >Dashboard</Link></li>
+          <li className={location.pathname === '/profile' ? 'activeLink' : ''}><Link to="/profile" >Profile</Link></li>
           <li>Documents</li>
           <li>My Courses</li>
           <li>Payment History</li>
