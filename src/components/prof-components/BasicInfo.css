@@ -1,0 +1,83 @@
+.basicInfo-container {
+  margin-top: 42px;
+  background: rgba(76, 54, 210, 0.4);
+  box-shadow: 12px 30px 50px 25px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(35px);
+  height: 182px;
+
+}
+
+.basicInfo-wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  
+  align-items: center;
+
+}
+
+.basicInfo-wrapper hr {
+  height: 132px;
+  width: 0.5px;
+}
+
+.basicInfo-wrapper .firstPart {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  /* gap: 80px; */
+
+  justify-content: space-between;
+  height: 182px;
+}
+
+.basicInfo-wrapper .firstPart .profile-picture {
+  width: 140px;
+  overflow: hidden;
+}
+
+.basicInfo-wrapper .firstPart .profile-picture img {
+  width: 100%;
+}
+
+.basicInfo-wrapper .firstPart .content h1 {
+  font-size: 1.25rem;
+}
+
+.basicInfo-wrapper .firstPart .content h5 {
+  margin-top: 2px;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.basicInfo-wrapper .firstPart .content p {
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+
+.basicInfo-wrapper .firstPart .content button {
+  margin-top: 15px;
+  border-radius: 5px;
+  background: #070A2B;
+  font-size: 0.625rem;
+  font-weight: 500;
+  padding: 9px 16px 9px 17px;
+  border: none;
+}
+
+.basicInfo-wrapper .secondPart {
+  width: 30%;
+  
+}
+
+.basicInfo-wrapper .secondPart p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.625rem;
+  font-weight: 300;
+  padding: 0;
+}
+
+/* .basicInfo-wrapper .secondPart p span {
+  
+} */

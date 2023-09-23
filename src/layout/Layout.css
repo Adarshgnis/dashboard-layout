@@ -1,0 +1,8 @@
+.main-section {
+    display: flex;
+
+}
+
+.main-section .right{
+    width: 100%;
+}

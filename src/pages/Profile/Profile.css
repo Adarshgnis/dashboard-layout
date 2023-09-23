@@ -1,0 +1,48 @@
+.profile-container {
+    width: 100%;
+}
+
+.profile-wrapper {
+    width: 90%;
+    margin: 33px auto;
+}
+
+.profile-wrapper h1 {
+    font-weight: 500;
+}
+
+.profile-wrapper p {
+    margin-top: 13px;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.profile-wrapper p span {
+    padding: 0 13px;
+}
+
+.tabSwitchingLinks {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.tabSwitchingLinks li {
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.tabSwitchingLinks li:hover {
+    color: #ffffff;
+    opacity: 80%;
+}
+
+.tabSwitchingLinks .activeTab{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 600;
+    opacity: 100%;
+}

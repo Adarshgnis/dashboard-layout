@@ -1,0 +1,35 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-wrapper .nav-links {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+
+}
+
+.nav-links img {
+    width: 22px;
+}
+
+.nav-links .profile-picture{
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav-links .profile-picture img {
+    width: 100%;
+}
+
+.button1{
+    border-radius: 5px;
+    background: linear-gradient(99deg, #0DDCF8 2.86%, #044BB5 100%);
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 19.8px 11px 19.2px;
+}
