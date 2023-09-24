@@ -1,0 +1,11 @@
+.budgetContainer {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    height: 366px;
+}
+
+.budgetContainer > p {
+    font-size: 0.875;
+    font-weight: 300;
+}

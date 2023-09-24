@@ -3,6 +3,7 @@ import './JoinedBatches.css'
 import Dropdown from '../../CallToActionComponents/Dropdown'
 import SearchBar from '../../CallToActionComponents/SearchBar'
 import data from '../../../data/Data.json'
+import PaginationGroup from '../../CallToActionComponents/PaginationGroup'
 
 const JoinedBatches = () => {
 
@@ -60,6 +61,7 @@ const JoinedBatches = () => {
           ))}
         </tbody>
       </table>
+      <PaginationGroup/>
     </div>
   )
 }

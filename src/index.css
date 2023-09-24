@@ -35,6 +35,7 @@ p {
 
 .heading1 {
   font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .child-wrapper{
@@ -56,10 +57,23 @@ p {
   margin-bottom: 6px;
 }
 
+.secondaryHeading1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 .secondaryParagraph {
   font-size: 0.625rem;
   font-weight: 300;
   padding-bottom: 6px;
+}
+
+.lightParagraph {
+  font-size: 0.625rem;
 }
 
 hr {

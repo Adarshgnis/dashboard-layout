@@ -1,0 +1,29 @@
+.projectTask-table > thead {
+  background: linear-gradient(91deg, #0cd5f5 1.12%, #0568c2 99.18%);
+}
+
+.projectTask-table {
+  background: rgba(105, 82, 244, 0.33);
+  box-shadow: 12px 30px 50px 25px rgba(0, 0, 0, 0.15);
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  height: 366px;
+}
+
+.projectTask-table > thead > tr > th {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 16px 30px;
+    text-align: left;
+}
+
+.projectTask-table > tbody > tr > td {
+    padding: 17px 25px;
+    text-align: left;
+}
+
+.tableLabel{
+    font-size: 0.875rem;
+    font-weight: 400;
+}

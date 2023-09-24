@@ -1,0 +1,34 @@
+.boxLayout-container {
+    width: calc(33.33% - 20px);
+    background: #2F2792;
+    box-shadow: 12px 30px 50px 25px rgba(0, 0, 0, 0.15);
+    height: 426px;
+    margin-top: 60px;
+}
+
+.boxLayout-header {
+    display: flex;
+    justify-content: center;
+}
+
+.boxLayout-header > h1 {
+    padding: 18px 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.boxLayout-body {
+    padding: 26px 30px 25px 20px;
+}
+
+.boxLayout-body > p {
+    font-size: 0.6rem;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.boxLayout-body > p > span {
+    color: #0DDCF8;
+}

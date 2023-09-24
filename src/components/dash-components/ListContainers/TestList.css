@@ -1,0 +1,24 @@
+.testList-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.testList-wrapper li {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.testList-wrapper li:first-child {
+    border-bottom: 2.3px solid;
+    border-radius: 2px;
+    padding-bottom: 3px;
+}
+
+.testList-containerP {
+    margin: 40% auto;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+}

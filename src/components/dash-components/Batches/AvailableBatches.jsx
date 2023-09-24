@@ -4,6 +4,7 @@ import Dropdown from '../../CallToActionComponents/Dropdown'
 import SearchBar from '../../CallToActionComponents/SearchBar';
 import Button from '../../CallToActionComponents/Button';
 import data from '../../../data/Data.json'
+import PaginationGroup from '../../CallToActionComponents/PaginationGroup';
 
 const AvailableBatches = () => {
 
@@ -74,35 +75,7 @@ const AvailableBatches = () => {
           ))}
         </tbody>
       </table>
-      {/* <table>
-        <thead>
-          <tr>
-            <th>Subject Name</th>
-            <th>Category</th>
-            <th>Category</th>
-            <th>Status</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Chemistry</td>
-            <td>Academic</td>
-            <td>03 Jul 2023 To 31 Jul<br />
-              2023BATCH-18</td>
-            <td>On going</td>
-            <td><Button text="Join" /></td>
-          </tr>
-          <tr>
-            <td>Chemistry</td>
-            <td>Academic</td>
-            <td>03 Jul 2023 To 31 Jul<br />
-              2023BATCH-18</td>
-            <td>On going</td>
-            <td><Button text="Join" /></td>
-          </tr>
-        </tbody>
-      </table> */}
+      <PaginationGroup/>
     </div>
   )
 }

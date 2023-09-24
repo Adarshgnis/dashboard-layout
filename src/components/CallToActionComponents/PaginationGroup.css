@@ -1,0 +1,28 @@
+.pagination-group {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+  
+  .pagination-group > div {
+    display: flex;
+    gap: 15px;
+  }
+
+  .pagination-group > p {
+    letter-spacing: 0.5px;
+  }
+  
+ .pagination-paragraph {
+    font-weight: 400;
+    font-size: 0.625rem;
+    padding-bottom: 6px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+  
+  .pagination-paragraph-number {
+    color: #0DDCF8;
+    font-weight: 600;
+  }

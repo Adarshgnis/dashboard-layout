@@ -29,13 +29,14 @@
   margin-bottom: 23px;
   display: flex;
   justify-content: space-between;
-  padding: 0 15px 0 25px;
+  padding: 0 25px;
 }
 
 .dashboardTable {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
+  border-bottom: 0.5px solid #BFBFBF;
 }
 
 .dashboardTable > thead {
@@ -45,24 +46,21 @@
 .dashboardTable > thead > tr > th {
   font-size: 0.75rem;
   font-weight: 500;
-  padding: 15px 30px;
+  padding: 23px 25px;
 }
 .dashboardTable tbody > tr > td {
   font-size: 0.75rem;
   font-weight: 400;
-  padding: 3px 12px;
+  padding: 15px 17px;
 }
 
-.dashboardTable tbody > tr > td:nth-child(4) {
+/* .dashboardTable tbody > tr > td:nth-child(4) {
   border-radius: 25px;
   background: #003dff;
   width: 58px;
   height: 16px;
-}
+} */
 
-.dashboardTable tbody tr td{
-    margin: 40px;
-}
 
 .box-container-heading {
   padding-left: 25px;
@@ -74,4 +72,34 @@
 
 .dashboardTable tbody tr:hover {
     background: #090A31;
+}
+
+.project-task {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  gap: 29px;
+  margin-top: 50px;
+}
+
+.project-task .projectBudget-container {
+  flex: 2;
+}
+
+.project-task .ProjectTask-container {
+  flex: 1;
+}
+
+
+.box-container-paragraph {
+  padding-left: 25px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.list-containers {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

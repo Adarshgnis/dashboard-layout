@@ -1,0 +1,14 @@
+.button-style {
+    cursor: pointer;
+}
+
+.statusButton {
+    font-size: 0.625rem;
+    font-weight: 600;
+    padding: 7px 20px;
+    width: 92px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(105, 144, 121, 0.50);
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,11 @@
+.loading-bar {
+  position: relative;
+  width: 95.032px;
+  height: 3.591px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.loading-progress {
+  height: 100%;
+}
