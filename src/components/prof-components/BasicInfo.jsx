@@ -29,12 +29,60 @@ const BasicInfo = () => {
         </div>
         <hr />
         <div className="secondPart">
-          <p>Phone <span>:</span> 0987654321</p>
-          <p>Email <span>:</span> jheel.meel@gmail.com</p>
-          <p>Birthday <span>:</span> 01/01/1991</p>
-          <p>Address <span>:</span> 12th Street, Seatle</p>
-          <p>Gender <span>:</span> Female</p>
-          <p>Reports To <span>:</span> No one</p>
+          <div className="parentDiv paddingDiv">
+            <div className="child1">
+              <p className="editCont-p">Phone</p>
+              <p className="editCont-p">:</p>
+            </div>
+            <div className="child2">
+              <p className="editCont-p">0987654321</p>
+            </div>
+          </div>
+          <div className="parentDiv paddingDiv">
+            <div className="child1">
+              <p className="editCont-p">Email</p>
+              <p className="editCont-p">:</p>
+            </div>
+            <div className="child2">
+              <p className="editCont-p">jheel.meel@gmail.com</p>
+            </div>
+          </div>
+          <div className="parentDiv paddingDiv">
+            <div className="child1">
+              <p className="editCont-p">Birthday</p>
+              <p className="editCont-p">:</p>
+            </div>
+            <div className="child2">
+              <p className="editCont-p">01/01/1991</p>
+            </div>
+          </div>
+          <div className="parentDiv paddingDiv">
+            <div className="child1">
+              <p className="editCont-p">Address</p>
+              <p className="editCont-p">:</p>
+            </div>
+            <div className="child2">
+              <p className="editCont-p">12th Street, Seatle</p>
+            </div>
+          </div>
+          <div className="parentDiv paddingDiv">
+            <div className="child1">
+              <p className="editCont-p">Gender</p>
+              <p className="editCont-p">:</p>
+            </div>
+            <div className="child2">
+              <p className="editCont-p">female</p>
+            </div>
+          </div>
+          <div className="parentDiv paddingDiv">
+            <div className="child1">
+              <p className="editCont-p">Reports To</p>
+              <p className="editCont-p">:</p>
+            </div>
+            <div className="child2">
+              <p className="editCont-p">No one</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

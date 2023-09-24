@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -21,14 +21,14 @@ const Navbar = () => {
     <div className='nav-container'>
       <div className="nav-wrapper container">
         <div className="logo">
-          <img src="/src/assets/Matriye-logo.png" alt="" className="company-logo" />
+          <Link to="/dashboard"><img src="/src/assets/Matriye-logo.png" alt="" className="company-logo" /></Link>
         </div>
         <div className="nav-links">
           <img src="/src/assets/Group 488.png" alt="" />
           <img src="/src/assets/bell 1.png" alt="" />
           <img src="/src/assets/g119.png" alt="" />
           <div className="profile-picture">
-            <img src="/src/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" />
+            <Link to="/profile"><img src="/src/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" /></Link>
           </div>
           <button className="button1" onClick={handleLogout}>
             Logout

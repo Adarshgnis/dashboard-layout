@@ -10,8 +10,8 @@
 .basicInfo-wrapper {
   display: flex;
   width: 80%;
-  justify-content: space-around;
-  
+  justify-content: space-between;
+  margin-left: 50px;
   align-items: center;
 
 }
@@ -66,18 +66,10 @@
 }
 
 .basicInfo-wrapper .secondPart {
-  width: 30%;
+  width: 35%;
   
 }
 
-.basicInfo-wrapper .secondPart p {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.625rem;
-  font-weight: 300;
-  padding: 0;
-}
 
-/* .basicInfo-wrapper .secondPart p span {
-  
-} */
+
+

@@ -29,6 +29,14 @@ a {
 p {
   padding: 6px 0;
 }
+
+button {
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -114,4 +122,11 @@ hr {
 
 .timeline ul li {
   padding-left: 25px;
+}
+
+.emptyContainer {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
 }

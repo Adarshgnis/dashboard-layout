@@ -18,18 +18,18 @@ const Sidebar = () => {
     <div className="sidebar-container">
       <div className='sidebar-wrapper'>
         <div className="profile-picture">
-          <img src="/src/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" />
+          <Link to="/profile"><img src="/src/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" /></Link>
         </div>
         <h1>{userName}</h1>
         <p>Student</p>
         <ul className='callToAction-icons'>
-          <li><a href="#"><img src="/src/assets/Group 5462.png" alt="" /></a></li>
-          <li><a href="#"><img src="/src/assets/Group 5462.png" alt="" /></a></li>
-          <li><a href="#"><img src="/src/assets/Group 5462.png" alt="" /></a></li>
+          <li><a href="#"><img src="/src/assets/Group 5459.png" alt="" /></a></li>
+          <li><a href="#"><img src="/src/assets/Group 5460.png" alt="" /></a></li>
+          <li><a href="#"><img src="/src/assets/Group 5461.png" alt="" /></a></li>
           <li><a href="#"><img src="/src/assets/Group 5462.png" alt="" /></a></li>
         </ul>
         <ul className="sidebar-links">
-          <li className={location.pathname === '/' ? 'activeLink' : ''}><Link to="/dashboard" >Dashboard</Link></li>
+          <li className={location.pathname === '/dashboard' ? 'activeLink' : ''}><Link to="/dashboard" >Dashboard</Link></li>
           <li className={location.pathname === '/profile' ? 'activeLink' : ''}><Link to="/profile" >Profile</Link></li>
           <li>Documents</li>
           <li>My Courses</li>
