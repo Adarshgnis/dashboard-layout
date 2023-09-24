@@ -1,4 +1,47 @@
 {
+    "dashboardStats" : {
+      "leaveStats": {
+        "pendingLeave": 0,
+        "approvedLeave": 0
+      },
+      "courseStats": {
+        "purchasedCourses": 3,
+        "completedCourses": 0
+      },
+      "sessionStats": {
+        "processingSessions": 2,
+        "acceptedSessions": 16
+      },
+      "testStats": {
+        "totalTests": 0
+      }
+    },
+      "batches": [
+        {
+          "subjectName": "Chemistry",
+          "category": "Academic",
+          "batch": "03 Jul 2023 To 31 Jul 2023 BATCH-18",
+          "status": "On going"
+        },
+        {
+          "subjectName": "Physics",
+          "category": "Academic",
+          "batch": "03 Jul 2023 To 31 Jul 2023 BATCH-19",
+          "status": "On going"
+        }
+      ],
+      "Joinedbatches": [
+        {
+          "subjectName": "Chemistry",
+          "batch": "03 Jul 2023 To 31 Jul 2023 BATCH-18",
+          "status": "On going"
+        },
+        {
+          "subjectName": "Physics",
+          "batch": "03 Jul 2023 To 31 Jul 2023 BATCH-19",
+          "status": "On going"
+        }
+      ],
     "familyData": [
       {
         "name": "Kristin",

@@ -1,0 +1,27 @@
+select {
+  appearance: none; /* Remove default select styles */
+  padding: 5px;
+  font-size: 0.875rem;
+  border: 0.5px solid #FFF;
+  /* background: black; */
+  background: #372AAA;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  width: 100%;
+}
+
+.select-wrapper {
+    position: relative;
+    
+    width: 64px;
+    height: 33px;
+}
+
+.select-wrapper img {
+    width: 7px;
+    height: 11px;
+    position: absolute;
+    top: 29%;
+    right: 8px;
+}

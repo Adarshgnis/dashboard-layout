@@ -1,0 +1,77 @@
+.dashboard-container {
+  width: 100%;
+}
+
+.dashboard-wrapper {
+  width: 90%;
+  margin: 33px auto;
+}
+
+.dashboard-wrapper h1 {
+  font-weight: 500;
+}
+
+.batches-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 27px;
+}
+
+.box-container {
+  background: #372aaa;
+  box-shadow: 12px 30px 50px 25px rgba(0, 0, 0, 0.15);
+  padding: 30px 0px 36px 0px;
+  /* padding: 30px 15px 36px 25px; */
+}
+
+.dropSearch-group {
+  margin-top: 35px;
+  margin-bottom: 23px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 25px;
+}
+
+.dashboardTable {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.dashboardTable > thead {
+  background: linear-gradient(91deg, #0cd5f5 1.12%, #0568c2 99.18%);
+}
+
+.dashboardTable > thead > tr > th {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 15px 30px;
+}
+.dashboardTable tbody > tr > td {
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 3px 12px;
+}
+
+.dashboardTable tbody > tr > td:nth-child(4) {
+  border-radius: 25px;
+  background: #003dff;
+  width: 58px;
+  height: 16px;
+}
+
+.dashboardTable tbody tr td{
+    margin: 40px;
+}
+
+.box-container-heading {
+  padding-left: 25px;
+  /* margin-bottom: 26px; */
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+
+.dashboardTable tbody tr:hover {
+    background: #090A31;
+}
