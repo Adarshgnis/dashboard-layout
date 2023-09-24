@@ -1,7 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
+  const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem('isLoggedIn') === 'true');
+
+  useEffect(() => {
+    setIsLoggedIn(localStorage.getItem('isLoggedIn') === 'true');
+  }, []);
+
+
+  const handleLogout = () => {
+    localStorage.removeItem('isLoggedIn');
+    setIsLoggedIn(false);
+    navigate('/login');
+  };
   return (
     <div className='nav-container'>
       <div className="nav-wrapper container">
@@ -15,7 +30,7 @@ const Navbar = () => {
           <div className="profile-picture">
             <img src="/src/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" />
           </div>
-          <button className="button1">
+          <button className="button1" onClick={handleLogout}>
             Logout
           </button>
         </div>

@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Sidebar.css'
 import { Link, useLocation } from 'react-router-dom'
 
 const Sidebar = () => {
+  const [userName, setUserName] = useState("")
+
+  useEffect(() => {
+    const userName = localStorage.getItem("userName")
+    if (userName) {
+      setUserName(userName)
+    }
+  }, [])
 
   const location = useLocation();
 
@@ -12,7 +20,7 @@ const Sidebar = () => {
         <div className="profile-picture">
           <img src="/src/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" />
         </div>
-        <h1>Jheel kaur</h1>
+        <h1>{userName}</h1>
         <p>Student</p>
         <ul className='callToAction-icons'>
           <li><a href="#"><img src="/src/assets/Group 5462.png" alt="" /></a></li>
@@ -21,7 +29,7 @@ const Sidebar = () => {
           <li><a href="#"><img src="/src/assets/Group 5462.png" alt="" /></a></li>
         </ul>
         <ul className="sidebar-links">
-          <li className={location.pathname === '/' ? 'activeLink' : ''}><Link to="/" >Dashboard</Link></li>
+          <li className={location.pathname === '/' ? 'activeLink' : ''}><Link to="/dashboard" >Dashboard</Link></li>
           <li className={location.pathname === '/profile' ? 'activeLink' : ''}><Link to="/profile" >Profile</Link></li>
           <li>Documents</li>
           <li>My Courses</li>

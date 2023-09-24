@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./DashboardStats.css"
 import data from '../../data/Data.json'
 
