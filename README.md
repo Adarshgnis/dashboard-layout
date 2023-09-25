@@ -1,7 +1,7 @@
 ## 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adarsh-singh-34a945206)
-[![linkedin]([https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/twitter/follow/:user))]([https://www.linkedin.com/in/adarsh-singh-34a945206](https://twitter.com/AdarshSingh6026))
+[![linkedin](https://img.shields.io/twitter/follow/:user)](https://twitter.com/AdarshSingh6026)
 
 
 
