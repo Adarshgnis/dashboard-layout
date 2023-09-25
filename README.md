@@ -50,6 +50,12 @@ Here are some screenshots of our ReactJS Dashboard Website:
 ![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot8.png?raw=true)
 ![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot9.png?raw=true)
 
+<table>
+  <tr>
+    <td align="center"><img src="/screenshot/Screenshot1.png" alt="Screenshot 1"><br><em>Caption for Screenshot 1</em></td>
+    <td align="center"><img src="/screenshot/Screenshot2.png" alt="Screenshot 2"><br><em>Caption for Screenshot 2</em></td>
+  </tr>
+</table>
 
   
 ## Demo
