@@ -23,10 +23,10 @@ const Sidebar = () => {
         <h1>{userName}</h1>
         <p>Student</p>
         <ul className='callToAction-icons'>
-          <li><a href="#"><img src="/src/assets/Group 5459.png" alt="" /></a></li>
-          <li><a href="#"><img src="/src/assets/Group 5460.png" alt="" /></a></li>
-          <li><a href="#"><img src="/src/assets/Group 5461.png" alt="" /></a></li>
-          <li><a href="#"><img src="/src/assets/Group 5462.png" alt="" /></a></li>
+          <li><a href="#"><img src="/public/assets/Group 5459.png" alt="" /></a></li>
+          <li><a href="#"><img src="/public/assets/Group 5460.png" alt="" /></a></li>
+          <li><a href="#"><img src="/public/assets/Group 5461.png" alt="" /></a></li>
+          <li><a href="#"><img src="/public/assets/Group 5462.png" alt="" /></a></li>
         </ul>
         <ul className="sidebar-links">
           <li className={location.pathname === '/dashboard' ? 'activeLink' : ''}><Link to="/dashboard" >Dashboard</Link></li>
