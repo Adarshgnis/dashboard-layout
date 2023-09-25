@@ -35,41 +35,31 @@ I have developed a dynamic dashboard website using ReactJS that offers an intuit
 - `Primitive UI`
 - `Sweet Alert`
 
+## Demo
+
+[Live Demo](https://matriye.netlify.app/)
+
 ## Project Screenshots
 
 Here are some screenshots of our ReactJS Dashboard Website:
 
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot1.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot2.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot3.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot4.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot5.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot6.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot6.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot7.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot8.png?raw=true)
-![](https://github.com/Adarshgnis/dashboard-layout/blob/master/public/screenshot/Screenshot9.png?raw=true)
-
 <table>
   <tr>
     <td align="center"><img src="./public/screenshot/Screenshot1.png" alt="Screenshot 1"></td>
-    <td align="center"><img src="./public/screenshot/Screenshot2.png" alt="Screenshot 2"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot3.png" alt="Screenshot 2"></td>
   </tr>
   <tr>
-    <td align="center"><img src="./public/screenshot/Screenshot3.png" alt="Screenshot 1"></td>
-    <td align="center"><img src="./public/screenshot/Screenshot4.png" alt="Screenshot 2"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot4.png" alt="Screenshot 1"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot5.png" alt="Screenshot 2"></td>
   </tr>
   <tr>
-    <td align="center"><img src="./public/screenshot/Screenshot5.png" alt="Screenshot 1"></td>
-    <td align="center"><img src="./public/screenshot/Screenshot6.png" alt="Screenshot 2"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot6.png" alt="Screenshot 1"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot7.png" alt="Screenshot 2"></td>
   </tr>
   <tr>
-    <td align="center"><img src="./public/screenshot/Screenshot7.png" alt="Screenshot 1"></td>
-    <td align="center"><img src="./public/screenshot/Screenshot8.png" alt="Screenshot 2"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot8.png" alt="Screenshot 1"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot9.png" alt="Screenshot 2"></td>
   </tr>
 </table>
 
   
-## Demo
-
-[Live Demo](https://adarsh-employee-management-system.netlify.app/)
