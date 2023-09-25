@@ -55,6 +55,18 @@ Here are some screenshots of our ReactJS Dashboard Website:
     <td align="center"><img src="./public/screenshot/Screenshot1.png" alt="Screenshot 1"></td>
     <td align="center"><img src="./public/screenshot/Screenshot2.png" alt="Screenshot 2"></td>
   </tr>
+  <tr>
+    <td align="center"><img src="./public/screenshot/Screenshot3.png" alt="Screenshot 1"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot4.png" alt="Screenshot 2"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./public/screenshot/Screenshot5.png" alt="Screenshot 1"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot6.png" alt="Screenshot 2"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./public/screenshot/Screenshot7.png" alt="Screenshot 1"></td>
+    <td align="center"><img src="./public/screenshot/Screenshot8.png" alt="Screenshot 2"></td>
+  </tr>
 </table>
 
   
