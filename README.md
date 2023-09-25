@@ -10,10 +10,10 @@
 I have developed a dynamic dashboard website using ReactJS that offers an intuitive user experience. Here's an overview of the key features and functionalities:
 
 `User Registration and Login:` 
--Upon visiting the website, users encounter a login form.
--For first-time visitors, a user-friendly signup option is available.
--Users can fill out the signup form, and upon clicking the signup button, their data is securely stored in local storage.
--Once registered, they are automatically directed to the dashboard page.
+- Upon visiting the website, users encounter a login form.
+- For first-time visitors, a user-friendly signup option is available.
+- Users can fill out the signup form, and upon clicking the signup button, their data is securely stored in local storage.
+- Once registered, they are automatically directed to the dashboard page.
 
 
 ## 🛠 Technologies Used
