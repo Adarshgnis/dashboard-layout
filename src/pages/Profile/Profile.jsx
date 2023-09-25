@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import './Profile.css'
 import BasicInfo from '../../components/prof-components/BasicInfo'
-import MyProfile from '../../components/prof-components/my-profile/myProfile'
+import MyProfile from '../../components/prof-components/my-profile/MyProfile'
 import Projects from '../../components/prof-components/projects/Projects'
 import Documents from '../../components/prof-components/documents/Documents'
 
