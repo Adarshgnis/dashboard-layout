@@ -18,7 +18,7 @@ const Dropdown = ({ value, onChange, min, max, step }) => {
                     </option>
                 ))}
             </select>
-            <img src="/src/assets/Component 19.png" alt="" />
+            <img src="/assets/Component 19.png" alt="" />
         </div>
     )
 }

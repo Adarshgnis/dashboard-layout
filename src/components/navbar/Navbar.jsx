@@ -21,14 +21,14 @@ const Navbar = () => {
     <div className='nav-container'>
       <div className="nav-wrapper container">
         <div className="logo">
-          <Link to="/dashboard"><img src="/src/assets/Matriye-logo.png" alt="" className="company-logo" /></Link>
+          <Link to="/dashboard"><img src="/assets/Matriye-logo.png" alt="" className="company-logo" /></Link>
         </div>
         <div className="nav-links">
-          <img src="/src/assets/Group 488.png" alt="" />
-          <img src="/src/assets/bell 1.png" alt="" />
-          <img src="/src/assets/g119.png" alt="" />
+          <img src="/assets/Group 488.png" alt="" />
+          <img src="/assets/bell 1.png" alt="" />
+          <img src="/assets/g119.png" alt="" />
           <div className="profile-picture">
-            <Link to="/profile"><img src="/src/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" /></Link>
+            <Link to="/profile"><img src="/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" /></Link>
           </div>
           <button className="button1" onClick={handleLogout}>
             Logout

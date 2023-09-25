@@ -11,7 +11,7 @@ const SearchBar = ({ value, onChange, onSearch }) => {
         onChange={onChange}
       />
       <button onClick={onSearch}>
-        <img src="/src/assets/Search Icon.png" alt="" />
+        <img src="/assets/Search Icon.png" alt="" />
       </button>
     </div>
   );

@@ -17,7 +17,7 @@ const BasicInfo = () => {
       <div className="basicInfo-wrapper">
         <div className="firstPart">
           <div className="profile-picture">
-            <img src="/src/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" />
+            <img src="/assets/young-beautiful-girl-wrinkled-her-lips-looking-up-high-quality-photo 1.png" alt="" />
           </div>
           <div className="content">
             <h1 className="heading1">{userName}</h1>
