@@ -5,16 +5,15 @@
 
 
 
-# Employees management System
+#  ReactJS Dashboard
 
-In this project, I developed a CRUD application called `Employees management System.`
+I have developed a dynamic dashboard website using ReactJS that offers an intuitive user experience. Here's an overview of the key features and functionalities:
 
-And the following react concepts are covered on this site:
-
-- `Functional Component` 
-- `Props`
-- `UseState Hook` 
-- `Conditional rendering`
+`User Registration and Login:` 
+-Upon visiting the website, users encounter a login form.
+-For first-time visitors, a user-friendly signup option is available.
+-Users can fill out the signup form, and upon clicking the signup button, their data is securely stored in local storage.
+-Once registered, they are automatically directed to the dashboard page.
 
 
 ## 🛠 Technologies Used
