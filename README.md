@@ -39,7 +39,7 @@ I have developed a dynamic dashboard website using ReactJS that offers an intuit
 
 Here are some screenshots of our ReactJS Dashboard Website:
 
-![Screenshot 1](url_to_screenshot1.png)
+![Screenshot 1](/public/scrrenshot/Screenshot1.png)
 *Caption for Screenshot 1*
 
 ![Screenshot 2](url_to_screenshot2.png)
