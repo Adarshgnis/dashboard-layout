@@ -15,16 +15,16 @@ I have developed a dynamic dashboard website using ReactJS that offers an intuit
 - Users can fill out the signup form, and upon clicking the signup button, their data is securely stored in local storage.
 - Once registered, they are automatically directed to the dashboard page.
 
-  `Dashboard Page:`
+`Dashboard Page:`
 - The dashboard provides a personalized experience by displaying the user's username, which was entered during signup.
 - All the data displayed on this page is retrieved from a JSON file, which ensures flexibility and easy maintenance.
 - Reusable components are implemented, minimizing redundant code and promoting code efficiency.
 
-  `Navigation and Single Page Application (SPA):`
+`Navigation and Single Page Application (SPA):`
 - The website's navigation is seamlessly handled using the React Router library, creating a smooth SPA experience.
 - Users can easily transition between the main dashboard and profile pages.
 
-  `Logout Functionality:`
+`Logout Functionality:`
 - A logout button is incorporated, allowing users to log out and securely exit their session.
 - Users can quickly re-login by entering the same username they used during signup.
 
@@ -32,8 +32,8 @@ I have developed a dynamic dashboard website using ReactJS that offers an intuit
 ## 🛠 Technologies Used
 
 - `React`
-- `Primitive UI`
-- `Sweet Alert`
+- `React Router`
+- `Loacl Storage`
 
 ## Demo
 
